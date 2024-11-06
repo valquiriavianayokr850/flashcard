@@ -3,7 +3,34 @@ body {
     font-family: Bai Jamjuree;
 }
 
-#container{}
+#container{
+    display: flex;
+    
+}
+
+.cartao {
+    margin: 1rem 1rem;
+    background-color: aqua;
+    height: 20rem;
+    flex-grow: 1;
+    flex-basis: calc(33% - 6rem);
+}
+
+.cartao__conteudo {
+    text-align: center;
+    height: 100%;
+}
+
+.cartao_conteudo h3 {
+   text-align:left;
+   padding:0,5rem;
+   position:absolute;
+   margin:0,6rem;
+   border-radius:0,6rem;
+   background-color: blueviolet; 
+}
+
+
 
 footer {
     background-color: black;
@@ -15,14 +42,10 @@ footer {
     width: 100%;
     height: 2rem;
 }
-.cartao_conteudo{
-   text-align:center;
-   background-color: blueviolet; 
-}
 
 
 footer p {
     text-align: center;
-    font-size: 0.6rem;
+    font-size: 1vw;
     margin-top: 0.5rem;
 }
